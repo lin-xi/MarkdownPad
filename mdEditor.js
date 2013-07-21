@@ -3,6 +3,7 @@
 	var htmlholder = $(".html-holder"),
 		menuBar = $('.menuBar', htmlholder),
 		htmlEditor = $('#htmlEditor'),
+		htmlEdit = $('#htmlEdit'),
 		mdViewer = $('#mdViewer'),
 
 		undo = menuBar.find('.undo'),
@@ -12,7 +13,7 @@
 		bold = menuBar.find('.bold'),
 		italic = menuBar.find('.italic'),
 		strikethrough = menuBar.find('.strikethrough'),
-		quote = menuBar.find('.quote'),
+		forecolor = menuBar.find('.forecolor'),
 		list = menuBar.find('.list'),
 		numlist = menuBar.find('.numlist'),
 		hr = menuBar.find('.hr'),
@@ -21,8 +22,10 @@
 		image = menuBar.find('.image'),
 		code = menuBar.find('.code'),
 		clear = menuBar.find('.clear'),
+		html = menuBar.find('.html'),
 
-		render = menuBar.find('.render');
+		render = menuBar.find('.render'),
+		htmlMode = false;
 
 	htmlEditor.on('keydown', function(e){
 		if(e.keycode == 13){
@@ -63,8 +66,9 @@
 	italic.on('click', function(){
 		doExec("italic", "");
 	});
-	quote.on('click', function(){
-		doExec("formatBlock", "<blockquote>");
+	forecolor.on('click', function(){
+		var xtra = prompt("Enter a color hex code:", "#");
+		doExec("forecolor", xtra);
 	});
 	list.on('click', function(){
 		doExec("insertunorderedlist", "");
@@ -93,6 +97,18 @@
 	});
 	clear.on('click', function(){
 		doExec("formatBlock", "<code>");
+	});
+	html.on('click', function(){
+		if(!htmlMode){
+			htmlEdit.val(htmlEditor.html());
+			htmlEditor.hide();
+			htmlEdit.show();
+			htmlMode = true;
+		}else{
+			htmlEditor.show();
+			htmlEdit.hide();
+			htmlMode = false;
+		}
 	});
 	render.on('click', parseHtml);
 

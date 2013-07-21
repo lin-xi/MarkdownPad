@@ -206,7 +206,7 @@
     HtmlParser.prototype.li = function() {
       var str;
 
-      str = this.inOrderedList ? "" + (this.order++) + ". " : '* ';
+      this.inOrderedList ? "" + (this.order++) + ". " : '* ';
       str = padLeft(str, (this.listDepth - 1) * 2);
       return this.append(str);
     };
