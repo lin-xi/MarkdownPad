@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body { font-size: 62.5%; width:60em; margin: auto; }
+
+h1 { 
+    font: 2.5em GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h2 {
+	font: 2em GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h3,legend {
+	font: 1.8em GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h4 {
+	font: 1.6em GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+p,dd,dt,li,.lightbox figcaption { 
+	font: 1.4em GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+a { 
+	font: GentiumBasicRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+p code { 
+	width: 35em;
+	display: block;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	padding: 0.25em;
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+}
+code {
+	font-family: "Courier New", Courier, monospace;
+}
+.lightbox figure {
+	width: 150px;
+	height: 200px;
+	margin: 0.5em;
+	padding: 0.5em;
+	float: left;
+}
+.lightbox figure img {
+	border: solid 1px black;
+	margin-bottom: 1em;
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+}
+img {
+	border: none;
+}

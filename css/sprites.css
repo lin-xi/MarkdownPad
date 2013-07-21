@@ -1,0 +1,376 @@
+.icon-pilcrow,.icon-multiply,.icon-home,.icon-infinity,.icon-image,.icon-uniF470,.icon-uniF471,.icon-uniF481,.icon-link,.icon-html,.icon-html5,.icon-css3,.icon-squarebrackets,.icon-braces,.icon-chevrons,.icon-file,.icon-cursor,.icon-thumbnails,.icon-power,.icon-hourglass2,.icon-play,.icon-transform,.icon-eyedropper,.icon-font,.icon-bucket,.icon-vector,.icon-sortbynameascending,.icon-sortbynamedescending,.icon-sortbysizeascending,.icon-sortbysizedescending,.icon-alignverticalcenters,.icon-alignhorizontalcenters,.icon-alignbottomedges,.icon-aligntopedges,.icon-alignrightedges,.icon-alignleftedges,.icon-alignleft,.icon-alignright,.icon-aligncenter,.icon-alignjustify,.icon-distributeverticalcenters,.icon-distributehorizontalcenters,.icon-insertpicture,.icon-insertpictureleft,.icon-insertpictureright,.icon-insertpicturecenter,.icon-insertpiechart,.icon-insertbarchart,.icon-clearformatting,.icon-subscript,.icon-superscript,.icon-indentleft,.icon-indentright,.icon-bold,.icon-italic,.icon-underline,.icon-strikethrough,.icon-fontheight,.icon-fontwidth,.icon-checkin,.icon-forbidden,.icon-zoomin,.icon-zoomout,.icon-move,.icon-undo,.icon-redo,.icon-link2,.icon-copyright,.icon-music,.icon-ok,.icon-remove,.icon-cog,.icon-file2,.icon-play-circle,.icon-repeat,.icon-camera,.icon-list,.icon-indent-left,.icon-indent-right,.icon-facetime-video,.icon-picture,.icon-pencil,.icon-map-marker,.icon-play2,.icon-plus-sign,.icon-minus-sign,.icon-remove-sign,.icon-ok-sign,.icon-calendar,.icon-link3,.icon-cut,.icon-copy,.icon-paper-clip,.icon-save,.icon-reorder,.icon-list-ul,.icon-list-ol,.icon-table,.icon-columns,.icon-undo2,.icon-sitemap,.icon-quote-left,.icon-quote-right,.icon-github-alt,.icon-unlink,.icon-superscript2,.icon-subscript2,.icon-microphone,.icon-microphone-off,.icon-shield,.icon-html52,.icon-css32,.icon-ellipsis-horizontal,.icon-ellipsis-vertical,.icon-play-sign,.icon-collapse,.icon-github,.icon-list2,.icon-list3,.icon-numbered-list,.icon-minus,.icon-eyedropper2 {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-pilcrow {
+	background-position: 0 0;
+}
+.icon-multiply {
+	background-position: -56px 0;
+}
+.icon-home {
+	background-position: -112px 0;
+}
+.icon-infinity {
+	background-position: -168px 0;
+}
+.icon-image {
+	background-position: -224px 0;
+}
+.icon-uniF470 {
+	background-position: -280px 0;
+}
+.icon-uniF471 {
+	background-position: -336px 0;
+}
+.icon-uniF481 {
+	background-position: -392px 0;
+}
+.icon-link {
+	background-position: -448px 0;
+}
+.icon-html {
+	background-position: -504px 0;
+}
+.icon-html5 {
+	background-position: -560px 0;
+}
+.icon-css3 {
+	background-position: -616px 0;
+}
+.icon-squarebrackets {
+	background-position: -672px 0;
+}
+.icon-braces {
+	background-position: -728px 0;
+}
+.icon-chevrons {
+	background-position: -784px 0;
+}
+.icon-file {
+	background-position: -840px 0;
+}
+.icon-cursor {
+	background-position: 0 -56px;
+}
+.icon-thumbnails {
+	background-position: -56px -56px;
+}
+.icon-power {
+	background-position: -112px -56px;
+}
+.icon-hourglass2 {
+	background-position: -168px -56px;
+}
+.icon-play {
+	background-position: -224px -56px;
+}
+.icon-transform {
+	background-position: -280px -56px;
+}
+.icon-eyedropper {
+	background-position: -336px -56px;
+}
+.icon-font {
+	background-position: -392px -56px;
+}
+.icon-bucket {
+	background-position: -448px -56px;
+}
+.icon-vector {
+	background-position: -504px -56px;
+}
+.icon-sortbynameascending {
+	background-position: -560px -56px;
+}
+.icon-sortbynamedescending {
+	background-position: -616px -56px;
+}
+.icon-sortbysizeascending {
+	background-position: -672px -56px;
+}
+.icon-sortbysizedescending {
+	background-position: -728px -56px;
+}
+.icon-alignverticalcenters {
+	background-position: -784px -56px;
+}
+.icon-alignhorizontalcenters {
+	background-position: -840px -56px;
+}
+.icon-alignbottomedges {
+	background-position: 0 -112px;
+}
+.icon-aligntopedges {
+	background-position: -56px -112px;
+}
+.icon-alignrightedges {
+	background-position: -112px -112px;
+}
+.icon-alignleftedges {
+	background-position: -168px -112px;
+}
+.icon-alignleft {
+	background-position: -224px -112px;
+}
+.icon-alignright {
+	background-position: -280px -112px;
+}
+.icon-aligncenter {
+	background-position: -336px -112px;
+}
+.icon-alignjustify {
+	background-position: -392px -112px;
+}
+.icon-distributeverticalcenters {
+	background-position: -448px -112px;
+}
+.icon-distributehorizontalcenters {
+	background-position: -504px -112px;
+}
+.icon-insertpicture {
+	background-position: -560px -112px;
+}
+.icon-insertpictureleft {
+	background-position: -616px -112px;
+}
+.icon-insertpictureright {
+	background-position: -672px -112px;
+}
+.icon-insertpicturecenter {
+	background-position: -728px -112px;
+}
+.icon-insertpiechart {
+	background-position: -784px -112px;
+}
+.icon-insertbarchart {
+	background-position: -840px -112px;
+}
+.icon-clearformatting {
+	background-position: 0 -168px;
+}
+.icon-subscript {
+	background-position: -56px -168px;
+}
+.icon-superscript {
+	background-position: -112px -168px;
+}
+.icon-indentleft {
+	background-position: -168px -168px;
+}
+.icon-indentright {
+	background-position: -224px -168px;
+}
+.icon-bold {
+	background-position: -280px -168px;
+}
+.icon-italic {
+	background-position: -336px -168px;
+}
+.icon-underline {
+	background-position: -392px -168px;
+}
+.icon-strikethrough {
+	background-position: -448px -168px;
+}
+.icon-fontheight {
+	background-position: -504px -168px;
+}
+.icon-fontwidth {
+	background-position: -560px -168px;
+}
+.icon-checkin {
+	background-position: -616px -168px;
+}
+.icon-forbidden {
+	background-position: -672px -168px;
+}
+.icon-zoomin {
+	background-position: -728px -168px;
+}
+.icon-zoomout {
+	background-position: -784px -168px;
+}
+.icon-move {
+	background-position: -840px -168px;
+}
+.icon-undo {
+	background-position: 0 -224px;
+}
+.icon-redo {
+	background-position: -56px -224px;
+}
+.icon-link2 {
+	background-position: -112px -224px;
+}
+.icon-copyright {
+	background-position: -168px -224px;
+}
+.icon-music {
+	background-position: -224px -224px;
+}
+.icon-ok {
+	background-position: -280px -224px;
+}
+.icon-remove {
+	background-position: -336px -224px;
+}
+.icon-cog {
+	background-position: -392px -224px;
+}
+.icon-file2 {
+	background-position: -448px -224px;
+}
+.icon-play-circle {
+	background-position: -504px -224px;
+}
+.icon-repeat {
+	background-position: -560px -224px;
+}
+.icon-camera {
+	background-position: -616px -224px;
+	width: 30px;
+}
+.icon-list {
+	background-position: -672px -224px;
+}
+.icon-indent-left {
+	background-position: -728px -224px;
+}
+.icon-indent-right {
+	background-position: -784px -224px;
+}
+.icon-facetime-video {
+	background-position: -840px -224px;
+}
+.icon-picture {
+	background-position: 0 -280px;
+	width: 30px;
+}
+.icon-pencil {
+	background-position: -56px -280px;
+}
+.icon-map-marker {
+	background-position: -112px -280px;
+}
+.icon-play2 {
+	background-position: -168px -280px;
+}
+.icon-plus-sign {
+	background-position: -224px -280px;
+}
+.icon-minus-sign {
+	background-position: -280px -280px;
+}
+.icon-remove-sign {
+	background-position: -336px -280px;
+}
+.icon-ok-sign {
+	background-position: -392px -280px;
+}
+.icon-calendar {
+	background-position: -448px -280px;
+}
+.icon-link3 {
+	background-position: -504px -280px;
+}
+.icon-cut {
+	background-position: -560px -280px;
+}
+.icon-copy {
+	background-position: -616px -280px;
+}
+.icon-paper-clip {
+	background-position: -672px -280px;
+}
+.icon-save {
+	background-position: -728px -280px;
+}
+.icon-reorder {
+	background-position: -784px -280px;
+}
+.icon-list-ul {
+	background-position: -840px -280px;
+}
+.icon-list-ol {
+	background-position: 0 -336px;
+}
+.icon-table {
+	background-position: -56px -336px;
+}
+.icon-columns {
+	background-position: -112px -336px;
+}
+.icon-undo2 {
+	background-position: -168px -336px;
+}
+.icon-sitemap {
+	background-position: -224px -336px;
+}
+.icon-quote-left {
+	background-position: -280px -336px;
+}
+.icon-quote-right {
+	background-position: -336px -336px;
+}
+.icon-github-alt {
+	background-position: -392px -336px;
+}
+.icon-unlink {
+	background-position: -448px -336px;
+}
+.icon-superscript2 {
+	background-position: -504px -336px;
+}
+.icon-subscript2 {
+	background-position: -560px -336px;
+}
+.icon-microphone {
+	background-position: -616px -336px;
+}
+.icon-microphone-off {
+	background-position: -672px -336px;
+}
+.icon-shield {
+	background-position: -728px -336px;
+}
+.icon-html52 {
+	background-position: -784px -336px;
+}
+.icon-css32 {
+	background-position: -840px -336px;
+}
+.icon-ellipsis-horizontal {
+	background-position: 0 -392px;
+}
+.icon-ellipsis-vertical {
+	background-position: -56px -392px;
+}
+.icon-play-sign {
+	background-position: -112px -392px;
+}
+.icon-collapse {
+	background-position: -168px -392px;
+}
+.icon-github {
+	background-position: -224px -392px;
+}
+.icon-list2 {
+	background-position: -280px -392px;
+}
+.icon-list3 {
+	background-position: -336px -392px;
+}
+.icon-numbered-list {
+	background-position: -392px -392px;
+}
+.icon-minus {
+	background-position: -448px -392px;
+}
+.icon-eyedropper2 {
+	background-position: -504px -392px;
+	width: 29px;
+}

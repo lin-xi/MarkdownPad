@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="uft-8"/>
+	<title>思维导图</title>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" href="css/reset.css" media="screen"/>
+	<link rel="stylesheet" href="css/sprites.css" media="screen"/>
+	<link rel="stylesheet" href="css/md-editor.css" media="screen"/>
+</head>
+
+<body>
+
+<div class="mdEditor">
+	
+	<div class="editor">
+		<div class="md-holder">
+			<textarea id="mdViewer"></textarea>
+		</div>
+		<div class="html-holder">
+			<div class="menuBar">
+				<span class="common">
+					<button class="undo icon-undo"></button>
+					<button class="redo icon-redo"></button>
+					<span class="split"></span>
+					<button class="format">格式</button>
+					<button class="bold icon-bold"></button>
+					<button class="italic icon-italic"></button>
+					<button class="quote icon-quote-left"></button>
+					<button class="list icon-list"></button>
+					<button class="numlist icon-numbered-list"></button>
+					<span class="split"></span>
+					<button class="hr icon-minus"></button>
+					<button class="link icon-link"></button>
+					<button class="unlink icon-unlink"></button>
+					<button class="image icon-image"></button>
+					<button class="code icon-html"></button>
+					<span class="split"></span>
+					<button class="clear icon-forbidden"></button>
+					<span class="split"></span>
+					<button class="render icon-play"></button>
+				</span>
+				
+			</div>
+			
+			<div id="htmlEditor" contenteditable="true" designmode="on">
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+
+<script src="raphael.js"></script>
+<script src="jquery-1.9.1.js"></script>
+<script src="markdown.js"></script>
+<script src="mdEditor.js"></script>
+
+<script type="text/javascript">
+	
+</script>
+
+</body>
+</html>
+
